@@ -14,9 +14,9 @@ public class RaisePlaceholder: UITextField, UITextFieldDelegate {
     @IBInspectable public var subjectColor: UIColor = UIColor.black
     @IBInspectable public var underLineColor: UIColor = UIColor.black
     
-    fileprivate let placeholderLabelFontSize: CGFloat = 12.0
-    fileprivate var placeholderLabel: UILabel?
-    fileprivate var titlePlaceholder: String?
+     let placeholderLabelFontSize: CGFloat = 12.0
+     var placeholderLabel: UILabel?
+     var titlePlaceholder: String?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
