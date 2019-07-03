@@ -130,6 +130,7 @@ public class RaisePlaceholder: UITextField, UITextFieldDelegate {
             placeholderLabel.text = self.titlePlaceholder
             placeholderLabel.font = UIFont.systemFont(ofSize: self.placeholderLabelFontSize)
             placeholderLabel.textColor = self.subjectColor
+            placeholderLabel.adjustsFontSizeToFitWidth = true
             placeholderLabel.frame.origin.y = frame.origin.y - placeholderLabel.frame.size.height - (self.frame.size.height / 2 - frame.size.height / 2)
             /*
              
