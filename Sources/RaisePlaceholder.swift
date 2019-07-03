@@ -51,6 +51,7 @@ public class RaisePlaceholder: UITextField, UITextFieldDelegate {
         label.center = self.center
         label.text = ""
         label.font = UIFont.systemFont(ofSize: self.placeholderLabelFontSize)
+        label.adjustsFontSizeToFitWidth = true
         label.textColor = subjectColor
         
         if let superView = self.superview {
